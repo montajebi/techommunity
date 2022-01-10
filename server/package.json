@@ -1,0 +1,32 @@
+{
+  "name": "techommunity-server",
+  "version": "1.0.0",
+  "description": "Server for techommunity application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montajebi/techommunity.git"
+  },
+  "author": "Ali Montajebi <montajebi.ali@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montajebi/techommunity/issues"
+  },
+  "homepage": "https://github.com/montajebi/techommunity#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "getstream": "^7.4.1",
+    "stream-chat": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

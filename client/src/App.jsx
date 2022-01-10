@@ -3,7 +3,7 @@ import { Chat } from 'stream-chat-react';
 import './App.css';
 import { ChannelContainer, ChannelListContainer, Auth } from './components';
 
-const apiKey = 'txjbj8q89ck5';
+const apiKey = '7uew53e72g83';
 const client = StreamChat.getInstance(apiKey);
 
 const authToken = false;
